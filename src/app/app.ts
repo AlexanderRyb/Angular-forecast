@@ -1,12 +1,35 @@
 import { Component, signal } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { Router, RouterOutlet, NavigationStart, NavigationEnd, Event, RoutesRecognized } from '@angular/router';
+import { CardNavigation } from "./card-navigation/card-navigation";
+import { SettingsBlock } from './settings-block/settings-block';
+import { FormsModule } from '@angular/forms';
+import { DetailsCard } from "./details-card/details-card";
+import { CommonModule } from '@angular/common';
+import {slideInAnimation} from './route-animations';
+import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
+  standalone: true,
+  imports: [
+    CommonModule,
+    RouterOutlet,
+    CardNavigation,
+    SettingsBlock,
+    FormsModule,
+    DetailsCard,
+    
+  ],
   templateUrl: './app.html',
-  styleUrl: './app.css'
+  styleUrls: ['./app.css'],
+  animations: [slideInAnimation],
+
 })
 export class App {
-  protected readonly title = signal('angular-weather');
+prepareRoute(outlet: RouterOutlet) {
+    return outlet?.activatedRouteData?.['animation'];
+  }
+  constructor(private router: Router) {
+    
+  }
 }

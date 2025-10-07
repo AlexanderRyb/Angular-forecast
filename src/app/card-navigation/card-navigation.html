@@ -1,0 +1,14 @@
+<header>
+    <nav>
+  <a routerLink="/main" routerLinkActive="active">Main</a>
+  <a routerLink="/details" routerLinkActive="active">Details</a>
+  <a routerLink="/forecast" routerLinkActive="active">Forecast</a>
+  <a routerLink="/about" routerLinkActive="active">About</a>
+    </nav>
+
+<div class="search-container">
+  <input type="text" placeholder="Search city..." [(ngModel)]="city" (keyup.enter)="searchWeather()" />
+    <span class="icon"></span>
+
+</div>
+</header>

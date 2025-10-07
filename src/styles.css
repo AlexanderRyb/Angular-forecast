@@ -1,1 +1,37 @@
 /* You can add global styles to this file, and also import other style files */
+:root {
+  --bg: #ffffff;
+  --card:#ecdcdc;
+  --text: #020202;
+}
+
+:root.dark {
+  --bg: #111111;
+  --card:#1b1a1a;
+  --text: #f7f8fa;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+
+}
+.route-enter {
+  transform: translateX(100%);
+  opacity: 0;
+  animation: slide-in 300ms forwards;
+}
+
+.route-leave {
+  transform: translateX(0);
+  opacity: 1;
+  animation: slide-out 300ms forwards;
+}
+
+@keyframes slide-in {
+  to { transform: translateX(0); opacity: 1; }
+}
+
+@keyframes slide-out {
+  to { transform: translateX(-100%); opacity: 0; }
+}
