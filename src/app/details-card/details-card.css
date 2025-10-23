@@ -9,6 +9,8 @@
   font-family: system-ui, sans-serif;
   font-size: 0.95rem;
   color: var(--text);
+  height: 40%;
+
 }
 
 .weather-card p {

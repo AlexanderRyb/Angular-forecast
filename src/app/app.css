@@ -30,14 +30,12 @@
    display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh; /* Optional: Adjust height to fill viewport */
 
 }
 .route-wrapper {
-  width: 500px;
+  width: 420px;
   position: relative;
   overflow: hidden;
-  height: 100%; /* Or a fixed height */
 }
 
 .route-wrapper > div {

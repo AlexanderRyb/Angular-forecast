@@ -3,12 +3,10 @@
     {{ currentLanguage }}
   </button>
 
- 
   <button class="btn" (click)="toggleTheme()">
-  {{ isDarkTheme ? 'Light' : 'Dark' }}
-</button>
+    {{ isDarkTheme ? "Light" : "Dark" }}
+  </button>
   <button class="btn" (click)="unitService.toggleTemp()">
-  {{ unitService.tempUnit() }}
-</button>
-
+    {{ unitService.tempUnit() }}
+  </button>
 </div>
