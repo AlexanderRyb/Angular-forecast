@@ -1,9 +1,9 @@
 {
   "routes": {
-    "/": {},
-    "/about": {},
-    "/details": {},
-    "/forecast": {},
-    "/main": {}
+    "/Angular-forecast": {},
+    "/Angular-forecast/about": {},
+    "/Angular-forecast/details": {},
+    "/Angular-forecast/forecast": {},
+    "/Angular-forecast/main": {}
   }
 }

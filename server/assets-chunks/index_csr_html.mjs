@@ -3,7 +3,7 @@ export default `<!doctype html>
 <head>
   <meta charset="utf-8">
   <title>AngularWeather</title>
-  <base href="/">
+  <base href="/Angular-forecast/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
 <style>:root{--bg:#ffffff;--card:#d4d4d4;--text:#020202}body{background:var(--bg);color:var(--text)}</style><link rel="stylesheet" href="styles-IJOF55YN.css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="styles-IJOF55YN.css"></noscript></head>

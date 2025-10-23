@@ -1,6 +1,6 @@
 
 export default {
-  basePath: '/',
+  basePath: '/Angular-forecast',
   supportedLocales: {
   "en-US": ""
 },
