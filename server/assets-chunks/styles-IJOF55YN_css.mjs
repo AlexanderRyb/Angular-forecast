@@ -1,2 +1,0 @@
-export default `:root{--bg: #ffffff;--card:#d4d4d4;--text: #020202}:root.dark{--bg: #111111;--card:#1b1a1a;--text: #f7f8fa}body{background:var(--bg);color:var(--text)}.route-enter{transform:translate(100%);opacity:0;animation:slide-in .3s forwards}.route-leave{transform:translate(0);opacity:1;animation:slide-out .3s forwards}@keyframes slide-in{to{transform:translate(0);opacity:1}}@keyframes slide-out{to{transform:translate(-100%);opacity:0}}
-`;

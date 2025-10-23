@@ -1,9 +1,9 @@
 {
   "routes": {
-    "/Angular-forecast": {},
-    "/Angular-forecast/about": {},
-    "/Angular-forecast/details": {},
-    "/Angular-forecast/forecast": {},
-    "/Angular-forecast/main": {}
+    "/angular-forecast": {},
+    "/angular-forecast/about": {},
+    "/angular-forecast/details": {},
+    "/angular-forecast/forecast": {},
+    "/angular-forecast/main": {}
   }
 }
