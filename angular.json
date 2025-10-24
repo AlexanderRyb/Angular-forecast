@@ -28,10 +28,12 @@
               "src/styles.css"
             ],
             "server": "src/main.server.ts",
-            "outputMode": "server",
+            "outputMode": "static",
             "ssr": {
               "entry": "src/server.ts"
-            }
+            },
+            "baseHref": "/Angular-forecast/"
+
           },
           "configurations": {
             "production": {

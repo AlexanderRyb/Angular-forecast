@@ -4,6 +4,7 @@
   gap: 0.5rem;
   background: var(--card);
   height: 40%;
+  border-radius: 5px;;
 
 
 }
