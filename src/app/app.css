@@ -33,9 +33,10 @@
 
 }
 .route-wrapper {
-  width: 420px;
+  width: 450px;
   position: relative;
   overflow: hidden;
+  
 }
 
 .route-wrapper > div {

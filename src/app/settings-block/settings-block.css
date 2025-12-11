@@ -1,16 +1,13 @@
 
 .settings {
-   position: fixed;
-  top: 1rem;
-  right: 1rem;
-  display: flex;
-  gap: 0.5rem;
-  padding: 0.4rem 0.6rem;
+ 
   background: var(--card);
-  border: 1px solid var(--border, #444);
-  border-radius: 8px;
-  font-family: inherit;
-  z-index: 1000;
+  border: 1px solid var(--border, #bdbbbb);
+  gap: 12px;
+  padding: 8px 5;
+  width: 150px;
+  font-family:  Georgia, 'Times New Roman', Times, serif
+
 }
 
 .btn {

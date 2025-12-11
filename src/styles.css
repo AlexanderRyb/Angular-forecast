@@ -3,6 +3,7 @@
   --bg: #ffffff;
   --card:#fcf6f6;
   --text: #020202;
+  --font: 'verdana', sans-serif;
 }
 
 :root.dark {

@@ -6,19 +6,19 @@
   {{ unitService.getTempUnitLabel() }}
 </p>
 
+<p>{{ t.windSpeed }}: {{ w.wind.speed }}</p>
+
 <p>
   {{ t.minTemp }}:
   {{ unitService.convertTemp(w.main.temp_min) | number:'1.0-0' }}
   {{ unitService.getTempUnitLabel() }}
 </p>
-
 <p>
   {{ t.maxTemp }}:
   {{ unitService.convertTemp(w.main.temp_max) | number:'1.0-0' }}
   {{ unitService.getTempUnitLabel() }}
 </p>
 
-<p>{{ t.windSpeed }}: {{ w.wind.speed }}</p>
 
 <p>
   {{ t.humidity }}: {{ w.main.humidity }}%
